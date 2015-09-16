@@ -62,13 +62,13 @@ var playGame = function (){
         scoreRound();
         score();
 
-//             //determine if play another round 
-//         if (userScore >= 3 || aiScore >= 3){
-//             var winner = aiScore > userScore ? "AI" : "User";
-//             console.log("Game Over ....." + winner)
-//         }
-//         else
-//             return playRound(aiScore, userScore);
+           //determine if play another round 
+        if (userScore >= 3 || aiScore >= 3){
+            var winner = aiScore > userScore ? "AI" : "User";
+            console.log("Game Over .....Winner is :  " + winner)
+        }
+        else
+            return playRound(aiScore, userScore);
 
      }
      playRound()
