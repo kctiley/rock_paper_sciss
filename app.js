@@ -55,7 +55,7 @@ var playGame = function (){
                 }
             } 
         }
-
+        // Note: This order works well for testing, but player order should be accounted for for production/end user.
         playAI();
         playUser();
         checkForTie();
